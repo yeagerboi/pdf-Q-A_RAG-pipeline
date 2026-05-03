@@ -1,0 +1,6 @@
+1.python -m venv .venv
+2..venv\Scripts\activate
+3.python -m ensurepip --upgrade
+4.python -m pip install --upgrade pip setuptools wheel
+5.python -m pip install langchain langchain-groq faiss-cpu tiktoken langchain-community sentence-transformers python-dotenv pypdf pymupdf pdfminer.six unstructured python-docx docx2txt pandas langchain-huggingface langchain-experimental
+
